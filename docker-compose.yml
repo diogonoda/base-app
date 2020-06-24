@@ -1,7 +1,7 @@
 version: "3.4"
 services:
-  policy-sample:
-    image: policy-sample
+  base-app:
+    image: base-app
     build:
       context: .
     ports:
